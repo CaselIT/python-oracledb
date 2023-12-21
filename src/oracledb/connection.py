@@ -1183,7 +1183,7 @@ def connect(
     ssl_context: Any = None,
     sdu: int = 8192,
     handle: int = 0,
-) -> Connection:
+) -> AsyncConnection:
     """
     Factory function which creates a connection to the database and returns it.
 
